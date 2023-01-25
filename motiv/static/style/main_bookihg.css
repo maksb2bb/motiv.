@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    background: #F5F5F5;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    height: 78px;
+    background-color: white;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+
+.search{
+    margin-left: 120px;
+    background: #F5F4F6;
+    border: none;
+    border-radius: 8px;
+    width: 358px;
+    height: 46px;
+}
+
+.serchhead{
+    display: flex;
+    width: 1380px;
+    justify-content: space-between;
+}
+
+
+.search::placeholder{
+    padding: 12px 14px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+    margin-left: 24px;
+    margin-right: 12px;
+}
+
+.logo_text{
+    margin-right: 12px;   
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1F2128; 
+}
+
+.menu{
+    display: flex;
+    height: 665px;
+    width: 248px;
+    background-color: white;
+}
+
+
+
+.booking{
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    width: 174px;
+    height: 34px;
+
+    background-color: #F3F5F8;
+    border-radius: 6px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+}
+
+.booking_text{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    color: #5F6165;
+}
+
+.menubtn{
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    margin-top: 10px;
+    margin-left: 24px;
+
+    width: 174px;
+    height: 34px;
+}
+
+
+.menubtn_text{
+    padding-left: 8px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    color: #5F6165;
+}
+
+.downmenubtn{
+    position: absolute;
+    bottom: 30px;
+}
+
+.dwnbtn{
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    margin-top: 10px;
+    margin-left: 24px;
+
+    width: 174px;
+    height: 34px; 
+}
+
+
+.downmenubtn_text{
+    padding-left: 8px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    color: #5F6165;
+}
+
+.frame01{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
